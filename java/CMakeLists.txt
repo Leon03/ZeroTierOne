@@ -28,7 +28,6 @@ endif()
 file(GLOB core_src_glob ../node/*.cpp)
 
 set(src_files
-    ../osdep/Http.cpp
     ../osdep/OSUtils.cpp
     jni/com_zerotierone_sdk_Node.cpp
     jni/ZT_jniutils.cpp
